@@ -395,16 +395,48 @@
 
         </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
+        <!-- is-hidden -->
         <div class="modal">
             <button type="button" class="close-btn" data-modal-close>
                 <svg class="close-btn-icon">
                     <use href="./images/sprite.svg#icon-close"></use>
                 </svg>
             </button>
+            <form class="modal-form">
+                <p class="modal-form-head">Оставьте свои данные, мы вам перезвоним</p>
+                <label class="modal-form-field">
+                    имя
+                    <span class="modal-window-span">
+                        <input name="user-name" class="modal-form-imput" type="text">
+                        <svg class="modal-form-icon">
+                            <use href="./images/sprite.svg#icon-vector"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modal-form-field">
+                    Телефон
+                    <span>
+                        <input class="modal-form-imput" type="tel">
+                        <svg class="modal-form-icon">
+                            <use href="./images/sprite.svg#icon-vector-"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modal-form-field">
+                    Почта
+                    <input class="modal-form-imput" type="email">
+                </label>
+                <label class="modal-form-field">
+                    Комментарий
+                    <textarea class="modal-form-imput" name="" id=""></textarea>
+                </label>
+
+            </form>
         </div>
     </div>
-    <script src="./js/modal.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
+
 </body>
 
 </html>
